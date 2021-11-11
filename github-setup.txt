@@ -1,0 +1,79 @@
+Mike@MikesXE700 MINGW64 ~ (master)
+$ cd desktop
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ ls
+desktop.ini  mmgit/
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ ls -al ~/.ssh
+total 54
+drwxr-xr-x 1 Mike 197121    0 Nov  9 11:15 ./
+drwxr-xr-x 1 Mike 197121    0 Nov  9 11:15 ../
+-rw-r--r-- 1 Mike 197121  419 Nov 11 16:05 id_ed25519
+-rw-r--r-- 1 Mike 197121  105 Nov 11 16:05 id_ed25519.pub
+-rw-r--r-- 1 Mike 197121 3389 Nov  9 10:03 id_rsa
+-rw-r--r-- 1 Mike 197121  749 Nov  9 10:03 id_rsa.pub
+-rw-r--r-- 1 Mike 197121 1096 Nov  9 11:15 known_hosts
+-rw-r--r-- 1 Mike 197121  500 Nov  8 18:27 known_hosts.old
+-rw-r--r-- 1 Mike 197121 1764 Nov  2 09:19 mikes_sshkey_gen.txt
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ clip < ~/.ssh/id_ed25519.pub
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ # pasted new sshkey to github account
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ git clone git@github.com:MikeMurf/mmgit.git
+fatal: destination path 'mmgit' already exists and is not an empty directory.
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$  git clone git@github.com:MikeMurf/mmgit.git
+Cloning into 'mmgit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$Mike@MikesXE700 MINGW64 ~ (master)
+$ cd desktop
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ ls
+desktop.ini  mmgit/
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ ls -al ~/.ssh
+total 54
+drwxr-xr-x 1 Mike 197121    0 Nov  9 11:15 ./
+drwxr-xr-x 1 Mike 197121    0 Nov  9 11:15 ../
+-rw-r--r-- 1 Mike 197121  419 Nov 11 16:05 id_ed25519
+-rw-r--r-- 1 Mike 197121  105 Nov 11 16:05 id_ed25519.pub
+-rw-r--r-- 1 Mike 197121 3389 Nov  9 10:03 id_rsa
+-rw-r--r-- 1 Mike 197121  749 Nov  9 10:03 id_rsa.pub
+-rw-r--r-- 1 Mike 197121 1096 Nov  9 11:15 known_hosts
+-rw-r--r-- 1 Mike 197121  500 Nov  8 18:27 known_hosts.old
+-rw-r--r-- 1 Mike 197121 1764 Nov  2 09:19 mikes_sshkey_gen.txt
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ clip < ~/.ssh/id_ed25519.pub
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ # pasted new sshkey to github account
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$ git clone git@github.com:MikeMurf/mmgit.git
+fatal: destination path 'mmgit' already exists and is not an empty directory.
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$  git clone git@github.com:MikeMurf/mmgit.git
+Cloning into 'mmgit'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Mike@MikesXE700 MINGW64 ~/desktop (master)
+$
